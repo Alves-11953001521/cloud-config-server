@@ -1,0 +1,20 @@
+server: 
+  port: 8080
+
+spring:
+  application:
+    name: greeting
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 
+          - '*'
+  endpoint:
+    health:
+      show-details: always
+
+ 
+greeting:
+       greeting: "Hola"
+       default-value: "Espanha!"
