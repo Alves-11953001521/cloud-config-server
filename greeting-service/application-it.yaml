@@ -16,5 +16,5 @@ management:
 
  
 greeting:
-       greeting: "Ciao"
+       greeting: "Pronto"
        default-value: "Mondo Italia!"
